@@ -1,0 +1,32 @@
+/* CSS dalam file about.css */
+
+/* Styling untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Styling untuk judul h1 */
+h1 {
+    color: #333;
+    margin-top: 50px;
+}
+
+/* Styling untuk h2 */
+h2 {
+    color: #555;
+}
+
+/* Styling untuk h3 */
+h3 {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk link JavaScript */
+script {
+    margin-top: 20px;
+}
