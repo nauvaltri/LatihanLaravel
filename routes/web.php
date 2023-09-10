@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CobaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,12 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/about', function () {
-    return view('about',[
-        "name"  => "nauval",
-        "email"  => "nauval@gmail.com",
-        "umur"  => "19 tahun",
-        "alamat" => "Kulon Progo",
-        "sekolah" => "Gadjah Mada"
-    ]);
-});
+// Route::get('/about', function () {
+//     return view('about',[
+//         "name"  => "nauval",
+//         "email"  => "nauval@gmail.com",
+//         "umur"  => "19 tahun",
+//         "alamat" => "Kulon Progo",
+//         "sekolah" => "Gadjah Mada"
+//     ]);
+// });
+
+route:: get('/about', [CobaController :: class,'tesfungsi']);
+
